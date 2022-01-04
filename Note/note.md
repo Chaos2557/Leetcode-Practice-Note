@@ -20,7 +20,7 @@ W=4，N=3
 
 定义二维数组：dp\[i]\[j]表示从下标\[0-i]的物品中取，放进容量为j的背包中，价值最大是多少
 
-![](D:\code\Note\1.jpg)
+![1](./1.jpg)
 
 
 
@@ -38,19 +38,19 @@ W=4，N=3
 - 第一行：i为0时，当j<weight\[0]时，dp\[0][j]=0;当j>=weight\[0]时，dp\[0][j]=weight\[0]
 - 其他：初始化为0
 
-![2](D:\code\Note\2.jpg)
+![2](./2.jpg)
 
 4. 确定遍历顺序
 
 - 按物品遍历
 
-![image-20220104230557990](D:\code\Note\image-20220104230557990.png)
+![image-20220104230557990](./image-20220104230557990.png)
 
 - 按重量遍历
 
 5. 举例推导数组
 
-![4](D:\code\Note\4.jpg)
+![4](./4.jpg)
 
 ```java
     public static void main(String[] args) {
